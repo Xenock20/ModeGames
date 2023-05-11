@@ -1,0 +1,1 @@
+Juego de completar: presenta una oración o frase en lenguaje de señas con una palabra faltante. El jugador debe seleccionar la palabra correcta para completar la oración.

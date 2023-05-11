@@ -1,0 +1,7 @@
+Paleta de colores
+
+#514A9D
+#28436B
+#0B294F
+#DE4A97
+#020203

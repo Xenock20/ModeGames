@@ -1,0 +1,1 @@
+uego de emparejamiento: presenta una señal y varias palabras o frases posibles. El jugador debe seleccionar la palabra o frase que corresponde a la señal.
