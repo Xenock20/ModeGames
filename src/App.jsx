@@ -1,11 +1,12 @@
 import './App.css'
+import AdivinaGame from './components/AdivinanzaDeSeñas/AdivinaGame/AdivinaGame'
 import Memogame from './components/JuegoDeMemoria/Memogame/Memogame'
-import { arrayCont } from './contenidoEjemplo'
+import { arrayCont, adivinaGame } from './contenidoEjemplo'
 
 function App() {
   return (
     <>
-      <Memogame contenido={arrayCont}></Memogame>
+      <AdivinaGame contenido={adivinaGame}></AdivinaGame>
     </>
   )
 }

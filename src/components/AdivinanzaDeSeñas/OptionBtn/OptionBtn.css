@@ -1,0 +1,11 @@
+.opt-btn-adivina-game{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
