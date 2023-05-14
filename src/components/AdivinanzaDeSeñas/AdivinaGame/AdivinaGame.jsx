@@ -15,6 +15,7 @@ export default function AdivinaGame({ contenido }) {
         index: i,
         name: option,
         clicket: false,
+        result: null,
       }))
     );
     setObjetoImage(objetoImageCopy);
@@ -28,6 +29,20 @@ export default function AdivinaGame({ contenido }) {
     return a;
   };
 
+  const handleClick = (option) => {
+    let optionsCopy = [...options];
+
+    if (objetoImage.name !== option.name) {
+      const optionCopy = { ...option, clicket: true, result: false };
+      optionsCopy.splice(option.index, 1, optionCopy);
+    } else {
+      const optionCopy = { ...option, clicket: true, result: true };
+      optionsCopy.splice(option.index, 1, optionCopy);
+    }
+    setOptions(optionsCopy);
+    setJuegoTerminado(true);
+  };
+
   return (
     <div className="cont-advina-game">
       <ImagenAdivinaGame img={objetoImage}></ImagenAdivinaGame>
@@ -35,6 +50,7 @@ export default function AdivinaGame({ contenido }) {
       <ContOptions
         options={options}
         juegoTerminado={juegoTerminado}
+        handleClick={handleClick}
       ></ContOptions>
     </div>
   );

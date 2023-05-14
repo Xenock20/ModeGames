@@ -9,3 +9,11 @@
   text-align: center;
   margin: 5px;
 }
+
+.opt-btn-adivina-game-false{
+  background-color: red;
+}
+
+.opt-btn-adivina-game-true{
+  background-color: green;
+}
