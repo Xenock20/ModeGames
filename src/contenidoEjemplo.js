@@ -47,3 +47,15 @@ export const adivinaGame = [
     ]
   }
 ]
+
+export const errorGame = [
+  {
+    options: [
+      "url1",
+      "url2",
+      "url3",
+      "url4"
+    ],
+    frase: "url2"
+  }
+]
