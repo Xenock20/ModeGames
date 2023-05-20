@@ -51,11 +51,23 @@ export const adivinaGame = [
 export const errorGame = [
   {
     options: [
-      "url1",
-      "url2",
-      "url3",
-      "url4"
+      {
+        url: "url1",
+        result: true
+      },
+      {
+        url: "url2",
+        result: false
+      },
+      {
+        url: "url3",
+        result: true
+      },
+      {
+        url: "url4",
+        result: true
+      }
     ],
-    frase: "url2"
+    frase: "La url2 es la incorrecta"
   }
 ]
