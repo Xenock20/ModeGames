@@ -1,1 +1,0 @@
-Juego de ordenamiento: presenta una oración escrita en lenguaje de señas, y desordena las palabras. El jugador debe reordenar las palabras en la oración correcta.
